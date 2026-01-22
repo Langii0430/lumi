@@ -1,3 +1,6 @@
+pip install streamlit
+streamlit run main.py
+
 import streamlit as st
 from dataclasses import dataclass
 from typing import List, Dict, Tuple
@@ -7,7 +10,7 @@ import random
 # Page config
 # -----------------------------
 st.set_page_config(
-    page_title="MBTI 무드 탐험소 ✨",
+    page_title="나의 MBTI 탐험소 ✨",
     page_icon="✨",
     layout="wide",
 )
